@@ -12,8 +12,6 @@ def hello():
     currentDT_formatted = currentDT.strf("%Y-%m-%d %H:%M:%S")
     
     return currentDT_formatted +"Hello World! This is a message from host: " + hostname + " (" + host_ip + ") \n"
-    
-    return "Hello World!"
 
 @application.route("/ready")
 def ready():
